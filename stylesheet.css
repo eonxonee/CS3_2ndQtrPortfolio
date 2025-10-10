@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: max-content;
+    height: 50px;
+
+    a {
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    }
+
+    a:hover {
+    background-color: grey;
+    padding: 20px 30px;
+    }
+}
+
+h1 {
+    font: face="proxima-nova", Arial, sans-serif;
+    color: #ec99c0;
+    text-align: center;
+    margin-top: 20px;
+}

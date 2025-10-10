@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-    font: face="proxima-nova", Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #ec99c0;
     text-align: center;
     margin-top: 20px;

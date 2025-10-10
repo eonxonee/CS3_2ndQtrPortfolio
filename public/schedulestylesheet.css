@@ -25,13 +25,22 @@ table, td, th {
   width: auto;
   table-layout: auto;
   margin-top: 25%;
+  margin-left: 0;
   padding: 4px;
   border: 1px solid #a20039;
 }
 
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body {
-    font-family: "Century Gothic", sans-serif;
-    color:#d30b68;
+    background-image: url(stars.gif);
+    font-family: "Rubik", sans-serif;
+    color: #d30b68;
     list-style-type: none;
     margin: 0;
     padding: 0;

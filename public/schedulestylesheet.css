@@ -4,19 +4,13 @@
 h1 {
     font-family: "BBH Sans Hegarty", sans-serif;
     color: #d7a1d8;
-    text-align: center;
     margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h2 {
     font-family: "BBH Sans Hegarty", sans-serif;
     color: #feddff;
-    text-align: center;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20%;
 }
 
 ul {
@@ -43,10 +37,7 @@ img {
 
 table, td, th {
   border-collapse: collapse;
-  width: auto;
-  table-layout: auto;
   margin-top: 25%;
-  margin-left: 0;
   padding: 4px;
   border: 1px solid #ffffff;
 }
@@ -62,7 +53,7 @@ body {
     display: flex;
     position: fixed;
     top: 0;
-    width: max-content;
+    width: auto;
     height: 50px;
 
     a {

@@ -11,7 +11,22 @@ body {
     padding: 0;
 }
 
-ul {
+h1 {
+  font-family: 'BBH Sans Hegarty', sans-serif;
+}
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    background: #58095c;
+    color: #fffade;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;

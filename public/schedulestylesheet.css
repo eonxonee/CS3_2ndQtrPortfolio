@@ -97,7 +97,7 @@ main {
     margin-bottom: 40px;
 }
 
-.text-media .text 
+.text-media .text {
     min-width: 250px;
     max-width: 500px;
 }

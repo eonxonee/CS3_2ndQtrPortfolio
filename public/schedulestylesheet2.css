@@ -31,7 +31,7 @@ h2 {
 }
 
 header {
-    background: #58095c;
+    background: #f9e1e1;
     color: #fffade;
     text-align: center;
     position: relative;
@@ -43,7 +43,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #58095c;
+    background-color: #f9e1e1;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -67,8 +67,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #c576d1;
-    color: #58095c;
+    background-color: #ffcece;
+    color: #5c4509;
 }
 
 nav img {
@@ -84,7 +84,7 @@ main {
 }
 
 .page-title h2 {
-    color: #d7a1d8;
+    color: #fdffee;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 0;
@@ -151,7 +151,7 @@ main {
     width: 500px;
     margin: 0;
     border-collapse: collapse;
-    background: #58095cb3;
+    background: #ffe6e8b3;
     color: #ffffff;
     font-size: 16px;
 }
@@ -163,8 +163,8 @@ th, td {
 }
 
 th {
-    background-color: #d7a1d8;
-    color: #58095c;
+    background-color: #f9e1e1;
+    color: #5c0938;
     font-size: 17px;
 }
 
@@ -189,7 +189,7 @@ tr:nth-child(even) {
 
 .thoughts-table table {
     width: 100%;
-    background: #58095cb3;
+    background: #ff9ed3b3;
     color: #ffffff;
     border-collapse: collapse;
 }
@@ -201,7 +201,7 @@ tr:nth-child(even) {
 }
 
 footer {
-    background: #58095c;
+    background: #f9e1e1;
     color: #fffade;
     text-align: center;
     padding: 24px 10px 16px 10px;
@@ -214,14 +214,14 @@ footer {
 }
 
 .footer-links a {
-    color: #feddff;
+    color: #fdffdd;
     text-decoration: underline;
     margin: 0 8px;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    color: #c576d1;
+    color: #fffebc;
 }
 
 footer p {

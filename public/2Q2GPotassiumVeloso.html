@@ -13,29 +13,46 @@
 
   <style>
     header {
-        background-color: #ffe6e8;
+        background-color: #fcd0d4;
     }
 
     footer {
-        background-color: #ffe6e8;
+        background-color: #fcd0d4;
     }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    nav img {
+        display: flex;
+    }
+
+    .side-box, .table-flex {
+        display: flex;
+        border-radius: 0;
+    }
+
+    
   </style>
 </head>
 
 <body>
   <header>
     <h1>‧₊˚♪ 𝄞₊˚⊹Potassium 2029 Daily Schedules‧₊˚♪ 𝄞₊˚⊹</h1>
-    <nav>
+    <nav class="schedule-links">
       <ul>
-        <li><a href="https://hanna-malaika-lopez.github.io/CS3_2ndQtrPortfolioLopez/public/2Q1GPotassiumLopez/2Q1GPotassiumLopez.html"><img src="../assets/jesterfavicon.png" alt="">Tuesday</a></li>
-        <li><a href="https://jfkam.github.io/CS32ndQtrPortfolioKam_K16/public/2Q1GPotassiumKam.html"><img src="../assets/bunny.png" alt="">Thursday</a></li>
-        <li><a href="https://ellysz24.github.io/CS3_2ndQtrPortfolioDalimot/public/2Q1GPotassiumDalimot.html"><img src="../assets/caticon.png" alt="">Friday</a></li>
+        <li><a href="https://hanna-malaika-lopez.github.io/CS3_2ndQtrPortfolioLopez/public/2Q1GPotassiumLopez/2Q1GPotassiumLopez.html"><img src="../assets/jesterfavicon.png">Tuesday</a></li>
+        <li><a href="https://jfkam.github.io/CS32ndQtrPortfolioKam_K16/public/2Q1GPotassiumKam.html"><img src="../assets/bunny.png">Thursday</a></li>
+        <li><a href="https://ellysz24.github.io/CS3_2ndQtrPortfolioDalimot/public/2Q1GPotassiumDalimot.html"><img src="../assets/caticon.png">Friday</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="page-title">
+    <section class="container">
       <h2>Monday Schedule</h2>
       <h3>by Adeleine Mathea Veloso</h3>
     </section>
@@ -68,7 +85,9 @@
             <td>STUDY PERIOD</td>
             <td colspan="2">
               locking in...<br>
+              <class="fixed-img">
               <img src="../assets/MLBB Lunox.jpeg" alt="Lunox" style="height:100px;width:60px;vertical-align:middle;">
+              </class>
             </td>
           </tr>
 
@@ -109,9 +128,7 @@
             <td colspan="2">yay last period! ⸜(｡˃ ᵕ ˂ )⸝♡</td>
           </tr>
         </table>
-
-        <!-- Thoughts Section -->
-        <div class="thoughts-table">
+        <div class="side-box">
           <h2>THOUGHTS:</h2>
           <table>
             <tr>
@@ -130,7 +147,7 @@
       </div>
     </section>
 
-    <section class="fixed-img">
+    <section class="icon">
       <img src="../assets/ribbon_name.png" alt="Ribbon name">
     </section>
   </main>

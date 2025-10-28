@@ -1,0 +1,42 @@
+body {
+  background-color: #ffeeee;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background-color: #ffdddd;
+  color: #000000;
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 16px;
+  border: 2px solid #ff9b9b;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #923e3e;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #b05959;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 15px;
+  color: #ffaaaa;
+  line-height: 1.5;
+}
+
+.profile-card:hover {
+  background-color: #ffffff;
+}
